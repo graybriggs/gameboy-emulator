@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gray/programming/gameboy-emulator-cpp/src/cpu.h
+functional
+-
+map
+-
+types.h
+/home/gray/programming/gameboy-emulator-cpp/src/types.h
+
+/home/gray/programming/gameboy-emulator-cpp/src/gpu.cpp
+cpu.h
+/home/gray/programming/gameboy-emulator-cpp/src/cpu.h
+gpu.h
+/home/gray/programming/gameboy-emulator-cpp/src/gpu.h
+mmu.h
+/home/gray/programming/gameboy-emulator-cpp/src/mmu.h
+cmath
+-
+
+/home/gray/programming/gameboy-emulator-cpp/src/gpu.h
+types.h
+/home/gray/programming/gameboy-emulator-cpp/src/types.h
+
+/home/gray/programming/gameboy-emulator-cpp/src/mmu.h
+types.h
+/home/gray/programming/gameboy-emulator-cpp/src/types.h
+
+/home/gray/programming/gameboy-emulator-cpp/src/types.h
+
